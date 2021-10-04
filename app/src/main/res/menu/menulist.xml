@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/it4"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="always"/>
+
+<item android:title=""
+    android:id="@+id/i9"
+    android:icon="@drawable/icoptionmenu"
+    app:showAsAction="always">
+    <menu>
+        <item android:id="@+id/it1"
+            android:icon="@drawable/ic_settings"
+            android:title="New Group"
+            app:showAsAction="never"/>
+
+
+        <item android:id="@+id/it2"
+            android:icon="@drawable/ic_settings"
+            android:title="New Broadcast"
+            app:showAsAction="never"/>
+
+        <item android:id="@+id/it3"
+            android:icon="@drawable/ic_settings"
+            android:title="Whatsapp Web"
+            app:showAsAction="never"/>
+
+    </menu>
+
+
+
+</item>
+
+
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <group android:id="@+id/gm">
+
+        <item  android:id="@+id/i1"
+            android:title="Copy"
+            android:icon="@drawable/icoptionmenu"
+            app:showAsAction="never"
+            >
+
+        </item>
+
+        <item  android:id="@+id/i2"
+            android:title="Cut"
+            android:icon="@drawable/icoptionmenu"
+            app:showAsAction="never"
+            >
+
+        </item>
+        <item  android:id="@+id/i3"
+            android:title="paste"
+            android:icon="@drawable/icoptionmenu"
+            app:showAsAction="never"
+            >
+
+        </item>
+
+    </group>
+
+</menu>
